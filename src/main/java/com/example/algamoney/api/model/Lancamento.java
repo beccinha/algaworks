@@ -27,7 +27,7 @@ public class Lancamento {
 	
 	@NotNull
 	@Column(name="data_vencimento")
-	private static LocalDate dataVencimento;
+	private LocalDate dataVencimento;
 	
 	@Column(name="data_pagamento")
 	private LocalDate dataPagamento;
@@ -91,7 +91,7 @@ public class Lancamento {
 		this.descricao = descricao;
 	}
 
-	public static LocalDate getDataVencimento() {
+	public LocalDate getDataVencimento() {
 		return dataVencimento;
 	}
 
